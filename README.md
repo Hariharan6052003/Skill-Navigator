@@ -1,24 +1,54 @@
-#Skill Navigator Console Application
+# Skill Navigator Console Application
 
-#Overview The Skill Navigator Application is a comprehensive platform designed to facilitate skill management and batch allocation for candidates and trainers. The application allows candidates to sign up, provide their educational and professional details, and receive recommendations for appropriate training batches based on their certifications. Trainers can sign in, select specific batches, and view enrolled students. The application is built using Java for the console-based logic and uses XAMPP with MySQL for the backend database.
+## Overview
 
-#Features Candidate Sign-Up & Sign-In: Allows candidates to create accounts, enter personal and professional details, and sign in to access their profiles. Batch Recommendation: After sign-up, candidates receive recommendations for training batches based on their certifications. Batch Allocation: Candidates can select a recommended batch, which is then allocated and recorded in the system. Trainer Sign-In & Batch Management: Trainers can sign in, select batches, and view details of students enrolled in the selected batch. Database Integration: Utilizes MySQL with XAMPP for database management, including tables for candidates, batches, and trainers. Technology Stack
+The Skill Navigator Application is a comprehensive platform designed to facilitate skill management and batch allocation for candidates and trainers. The application allows candidates to sign up, provide their educational and professional details, and receive recommendations for appropriate training batches based on their certifications. Trainers can sign in, select specific batches, and view enrolled students. The application is built using Java for console-based logic and uses XAMPP with MySQL for backend database management.
 
-Java: Used for application logic and console-based user interface. MySQL: Backend database for storing candidate, trainer, and batch information. XAMPP: Local server environment for database management.
+## Features
 
-#Installation Clone the Repository: git clone https://github.com/Hariharan6052003/Skill-Navigator.git
+- **Candidate Sign-Up & Sign-In**: Allows candidates to create accounts, enter personal and professional details, and sign in to access their profiles.
+- **Batch Recommendation**: After sign-up, candidates receive recommendations for training batches based on their certifications.
+- **Batch Allocation**: Candidates can select a recommended batch, which is then allocated and recorded in the system.
+- **Trainer Sign-In & Batch Management**: Trainers can sign in, select batches, and view details of students enrolled in the selected batch.
+- **Database Integration**: Utilizes MySQL with XAMPP for database management, including tables for candidates, batches, and trainers.
 
-#Set Up the Database: Import the SQL schema into your MySQL database. Create the candidates, batch, and trainer tables as defined in the SQL scripts.
+## Technology Stack
 
-Configure Database Connection:Update the DatabaseConnection class in the MainApp.java file with your MySQL credentials.
+- **Java**: Used for application logic and console-based user interface.
+- **MySQL**: Backend database for storing candidate, trainer, and batch information.
+- **XAMPP**: Local server environment for database management.
 
-Run the Application:Compile and run the Java application using your preferred IDE or command line.
+## Installation
 
-#Usage
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/Hariharan6052003/Skill-Navigator.git
+   
+## Execution
 
-#For Candidates: Sign up to create an account. Complete your profile and receive batch recommendations. Select a batch to be allocated.
+1. **Set Up the Database**:
+   - Import the SQL schema into your MySQL database.
+   - Create the `candidates`, `batch`, and `trainer` tables as defined in the SQL scripts.
 
-#For Trainers: Sign in with your credentials. Select a batch to manage. View the list of students enrolled in the selected batch.
+2. **Configure Database Connection**:
+   - Update the `DatabaseConnection` class in the `MainApp.java` file with your MySQL credentials.
+
+3. **Run the Application**:
+   - Compile and run the Java application using your preferred IDE or command line.
+
+## Usage
+
+### For Candidates
+
+- **Sign Up**: Create an account by entering your first name, last name, email, and password. Verify your email through an OTP sent to you.
+- **Receive Recommendations**: After signing up, you will receive batch recommendations based on your certifications.
+- **Select Batch**: Choose a recommended batch to be allocated.
+
+### For Trainers
+
+- **Sign In**: Log in with your credentials.
+- **Manage Batches**: Select a batch to manage.
+- **View Students**: See the list of students enrolled in the selected batch.
 
 
 
