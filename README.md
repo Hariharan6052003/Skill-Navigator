@@ -1,4 +1,5 @@
 #Skill Navigator Console Application
+
 #Overview
 The Skill Navigator Application is a comprehensive platform designed to facilitate skill management and batch allocation for candidates and trainers. The application allows candidates to sign up, provide their educational and professional details, and receive recommendations for appropriate training batches based on their certifications. Trainers can sign in, select specific batches, and view enrolled students. The application is built using Java for the console-based logic and uses XAMPP with MySQL for the backend database.
 
