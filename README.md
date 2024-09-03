@@ -10,17 +10,20 @@ Batch Allocation: Candidates can select a recommended batch, which is then alloc
 Trainer Sign-In & Batch Management: Trainers can sign in, select batches, and view details of students enrolled in the selected batch.
 Database Integration: Utilizes MySQL with XAMPP for database management, including tables for candidates, batches, and trainers.
 Technology Stack
+
+
+
 Java: Used for application logic and console-based user interface.
 MySQL: Backend database for storing candidate, trainer, and batch information.
 XAMPP: Local server environment for database management.
-Installation
-Clone the Repository:
 
-#bash
-Copy code:
+
+#Installation
+Clone the Repository:
 git clone https://github.com/Hariharan6052003/Skill-Navigator.git
 
-Set Up the Database:
+
+#Set Up the Database:
 Import the SQL schema into your MySQL database.
 Create the candidates, batch, and trainer tables as defined in the SQL scripts.
 
@@ -29,7 +32,9 @@ Configure Database Connection:Update the DatabaseConnection class in the MainApp
 Run the Application:Compile and run the Java application using your preferred IDE or command line.
 
 #Usage
-For Candidates: Sign up to create an account.
+
+#For Candidates:
+Sign up to create an account.
 Complete your profile and receive batch recommendations.
 Select a batch to be allocated.
 
